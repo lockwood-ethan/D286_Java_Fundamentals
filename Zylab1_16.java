@@ -10,5 +10,10 @@ public class Zylab1_16 {
         lastMonthsPrice = scnr.nextInt();
 
         /* Type your code here. */
+        int priceDifference = currentPrice - lastMonthsPrice;
+        double monthlyPayment = (currentPrice * 0.051) / 12;
+
+        System.out.println("This house is $" + currentPrice + ". The change is $" + priceDifference + " since last month.");
+        System.out.println("The estimated monthly mortgage is $" + monthlyPayment + ".");
     }
 }
