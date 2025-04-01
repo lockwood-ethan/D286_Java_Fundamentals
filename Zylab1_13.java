@@ -8,7 +8,6 @@ public class Zylab1_13 {
         System.out.println("Enter x: ");
         x = scnr.nextInt();
 
-        System.out.println(x); //Student mistakenly is echoing the input to output to match example
         System.out.println("x doubled is: " + (2 * x));
     }
 }
