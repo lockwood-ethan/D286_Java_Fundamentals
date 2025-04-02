@@ -8,5 +8,9 @@ public class Zylab2_27 {
         double y;
         double z;
         /* Type your code here */
+        x = scnr.nextDouble();
+        y = scnr.nextDouble();
+        z = scnr.nextDouble();
+        System.out.println("" + Math.pow(x, z) + " " + Math.pow(x, Math.pow(y, z)) + " " + Math.abs(y) + " " + Math.sqrt(Math.pow((x * y), z)));
     }
 }
