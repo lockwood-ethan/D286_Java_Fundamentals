@@ -9,5 +9,6 @@ public class Zylab2_29 {
         userName = scnr.next();
 
         /* Type your code here. */
+        System.out.println("Hello " + userName + ", and welcome to CS Online!");
     }
 }
