@@ -1,5 +1,4 @@
 package Zylabs_Chapter_2;
-import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class Zylab2_28 {
