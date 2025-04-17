@@ -11,5 +11,17 @@ public class Zylab5_13 {
         numElements = scnr.nextInt();
 
         /* Type your code here. */
+        for (int i = 0; i < numElements; ++i) {
+            userList[i] = scnr.nextInt();
+        }
+
+        for (int i = numElements - 1; i >= 0; --i) {
+            if (i == 0) {
+                System.out.println("" + userList[i] + ",");
+            }
+            else {
+                System.out.print("" + userList[i] + ",");
+            }
+        }
     }
 }
